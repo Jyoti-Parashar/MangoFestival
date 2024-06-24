@@ -1,36 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <title>Home</title>
+    <style>
+        * {
+            border: 1px solid red;
+        }
+    </style>
 
 </head>
 
 <body>
- <!----- SECTION 1 ----->
-    <div id="main-container">
-       Nav comes here 
+    <!----- SECTION 1 ----->
 
-    </div>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
+                    <a class="nav-link" href="#">Contact</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <!----- SECTION 2 ----->
     <div>
         <div id="image-container">
-            <img
-                src="Images/Mangoes-Banner-small.png"         
-                alt="Page banner"
-                width="2000"
-                
-             />
+            <img src="Images/Mangoes-Banner-small.png" alt="Page banner" class="img-fluid rounded mx-auto d-block" />
         </div>
 
     </div>
     <!----- SECTION 3 ----->
+    <div class="container">
+        <div class="row">
+            <div class="col-md ">
+                <div class="card" id="card-1" >
+                    <h5 class="card-header">Featured</h5>
+                    <img src="./Images/Red Cut Mango.jpg" class="card-img-top h-25 p-3" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-footer text-muted text-center">                       
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md ">
+                <div class="card" id="card-2" >
+                    <h5 class="card-header">Featured</h5>
+                    <img src="./Images/harvest-mango-basket-put-wooden-table-farm-mango-tree-background-mango-tree-farm-background.webp"
+                        class="card-img-top h-25 p-3" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md ">
+                <div class="card" id="card-3" >
+                    <h5 class="card-header">Featured</h5>
+                    <img src="./Images/healing mango.jpg" class="card-img-top h-25 p-3" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md ">
+                <div class="card" id="card-3" >
+                    <h5 class="card-header">Featured</h5>
+                    <img src="./Images/mango madness.jpg" class="card-img-top h-20 p-3" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!----- SECTION 4 ----->
     <div></div>
 
-     <!----- SECTION 4 ----->
-     <div></div>
-
 </body>
+
 </html>
