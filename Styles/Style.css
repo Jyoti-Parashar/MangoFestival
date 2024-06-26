@@ -1,4 +1,25 @@
-::selection{
-    background: #9ac100;
+
+
+
+
+.btn-color, .btn:hover{
+    background-color: #9ac100;
     color:#fff;
+    font-weight: bolder;
+
+
+}
+
+input:focus{
+   border-color: #9ac100;
+}
+
+
+
+.vc_figure{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    max-width: 100%;
+
 }
