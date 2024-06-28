@@ -1,8 +1,22 @@
 
 
+.body-back-color {
+    /*#ffc107*/
+    color: #9ac100;
+    
+}
 
+/*
 
-.btn-color, .btn:hover{
+a:hover {
+    color: #FF00FF;
+  }
+nav >a:hover{
+    color:#ffc107 ;
+}
+    */
+
+.btn-color, .btn:hover {
     background-color: #9ac100;
     color:#fff;
     font-weight: bolder;
