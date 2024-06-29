@@ -37,3 +37,14 @@ input:focus{
     max-width: 100%;
 
 }
+
+.min-width{
+    min-width: fit-content;
+}
+
+.card{
+    margin-inline: 1rem;
+    margin-bottom: 2rem;
+    min-width: 290px;
+    max-width: 330px;
+}
