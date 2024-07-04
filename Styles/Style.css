@@ -1,9 +1,25 @@
-
+:root {
+    /*
+    --body-background-color: #6494ed84;
+    --box-width: 20rem;
+    --box-height: 2rem;
+    --border-radius: 1rem;
+    --box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .5);
+    */
+    --bs-border-color: #9ac100;
+    --bs-txt-fore-color: #ffff;
+    --bs-lbl-fore-color: red;
+}
 
 .body-back-color {
     /*#ffc107*/
-    color: #9ac100;
+    color: var(--bs-border-color);
+    font-weight: bolder;
     
+}
+
+.validate-color{
+color: var(--bs-lbl-fore-color);
 }
 
 /*
@@ -14,19 +30,20 @@ a:hover {
 nav >a:hover{
     color:#ffc107 ;
 }
+    input:focus{
+   border-color:  var(--bs-border-color);
+}
     */
 
 .btn-color, .btn:hover {
-    background-color: #9ac100;
-    color:#fff;
+    background-color: var(--bs-border-color);
+    color:var(--bs-txt-fore-color);
     font-weight: bolder;
 
 
 }
 
-input:focus{
-   border-color: #9ac100;
-}
+
 
 
 
@@ -47,4 +64,8 @@ input:focus{
     margin-bottom: 2rem;
     min-width: 290px;
     max-width: 330px;
+}
+
+.border{
+  border:    var(--bs-border-color);
 }
