@@ -1,43 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="./Styles/Style.css" />
-        <title>Home</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./Styles/Style.css" />
+    <title>Home</title>
 
-        <style>
-            * {
-                border: 1px solid red;
-            }
-        </style>
+    <style>
+        * {
+            border: 1px solid red;
+        }
+    </style>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <!----- SECTION 1 ----->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link disabled">Disabled</a>
-                    </div>
-                </div>
+
+
+    <div class="container-fluid" style="border: 2px solid black; text-align: center">
+
+        Fluid - fills entire width of screen
+        <div class="row">
+
+            <div class="col-sm-3" style="border: 2px solid black">
+
+                25% of screen: Column 1
             </div>
-        </nav>
-        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
-    </body>
+            <div class="col-sm-6">
+                50% width of screen: Column 2
+                <div class="row">
+                    <div class="col-sm-9" style="border: 2px solid black">
+                        75% width of parent: Column 2L
+                    </div>
+                    <div class="col-sm-3" style="border: 2px solid black">
+                        25% width of parent: Column 2R
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3" style="border: 2px solid black">
+
+                25% of screen: Column 3
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
 
 
 </html>
